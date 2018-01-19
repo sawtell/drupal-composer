@@ -1,0 +1,38 @@
+# Ignore binaries.
+/bin
+
+# Ignore OS X files
+.DS_Store
+
+# Ignore PHPStorm project files
+.idea
+
+# Ignore any composer managed files
+/docroot/core
+/docroot/modules/contrib
+/docroot/profiles/contrib
+/docroot/themes/contrib
+vendor/
+
+# Local settings.
+docroot/sites/**/settings.local.php
+docroot/sites/development.services.local.yml
+
+# Local development
+docroot/sites/**/services/local.services.yml
+
+# Ignore paths that contain user-generated content.
+docroot/files
+docroot/sites/*/files
+docroot/sites/*/private
+
+# Ignore any cache files
+.sass-cache
+
+# Ignore dev modules settings
+*reroute_email*
+system.menu.devel.yml
+devel.settings.yml
+devel.toolbar.settings.yml
+webprofiler.config.yml
+dblog.settings.*
