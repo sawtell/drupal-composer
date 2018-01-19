@@ -7,11 +7,17 @@
 # Ignore PHPStorm project files
 .idea
 
-# Ignore any composer managed files
-/docroot/core
+# Ignore Drupal files that are managed by composer
+!/docroot
+/docroot/*
+!/docroot/modules
 /docroot/modules/contrib
+!/docroot/profiles
 /docroot/profiles/contrib
+!/docroot/themes
 /docroot/themes/contrib
+
+# Ignore vendor
 vendor/
 
 # Local settings.
